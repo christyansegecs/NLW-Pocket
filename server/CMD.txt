@@ -1,0 +1,26 @@
+
+mkdir server
+npm init -y
+npm i typescript -D
+npx tsc --init
+npm i @types/node -D
+npm i tsx -D
+npm i fastify
+npm i -D --save-exact @biomejs/biome
+docker compose up -d
+npm i drizzle-orm
+npm i drizzle-kit -D
+npm i zod
+npm i postgres
+npx drizzle-kit generate
+npx drizzle-kit migrate
+npx drizzle-kit studio
+npm i @paralleldrive/cuid2
+npm run seed
+npm install dotenv
+npm i dayjs
+npm i fastify-type-provider-zod
+npm i @fastify/cors
+
+// foi necessário dar upgrade nessa lib para rodar o docker
+npm install fastify@^5.0.0

@@ -1,0 +1,14 @@
+npm create vite@latest
+npm i
+npm i @biomejs/biome -D
+npm i tailwindcss -D postcss autoprefixer
+npx tailwindcss init -p
+npm i lucide-react
+npm i tailwind-merge
+npm i tailwind-variants
+npm i @radix-ui/react-radio-group
+npm i @radix-ui/react-progress
+npm i @radix-ui/react-dialog
+npm i @tanstack/react-query
+npm i dayjs
+npm i react-hook-form @hookform/resolvers zod
